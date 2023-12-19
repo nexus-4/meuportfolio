@@ -1,0 +1,56 @@
+@charset "UFT-8";
+@font-face {
+    font-family: "minhafont";
+    src: url(minhafonte.ttf);
+}
+body {
+    font-family: minhafont, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+main {
+    background-color: black;
+    border-radius: 15px;
+    margin: auto;
+    width: 500px;
+    height: 600px;
+}
+h1 {
+    color: red;
+    position: relative;
+    top: 15%;
+    margin: auto;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.lista{
+    text-align: center;
+    padding: 0px;
+    color: red;
+    position: relative;
+    top: 40%;
+    margin: auto;
+    list-style-type: none;
+    columns: 2;
+}
+
+.links {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 60%;
+}
+
+.links a {
+    text-decoration: none;
+    color: red;
+    margin: auto;
+    transition: .3s;
+}
+
+a:hover {
+    text-decoration: line-through;
+    border-radius: 5px;
+    padding:5px;
+}
