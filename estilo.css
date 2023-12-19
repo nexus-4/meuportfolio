@@ -4,15 +4,17 @@
     src: url(minhafonte.ttf);
 }
 body {
+    margin: auto;
     padding: 10px;
     font-family: minhafont, Arial, Helvetica, sans-serif;
     background-color: black;
 }
 main {
     margin: auto;
+    margin-right: 0px;
     background-color: rgb(0, 0, 0);
     border-radius: 15px;
-    width: 500px;
+    min-width: 490px;
     height: 600px;
 }
 h1 {
@@ -22,6 +24,8 @@ h1 {
     transform: translate(-50%);
     color: red;
     font-size: xx-large;
+    min-width: 496px;
+    text-align: center;
     
 }
 
