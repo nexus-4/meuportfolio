@@ -3,55 +3,57 @@
     font-family: "minhafont";
     src: url(minhafonte.ttf);
 }
+
 body {
+    background-color: black;
     padding: 10px;
     font-family: minhafont, Arial, Helvetica, sans-serif;
-    background-color: black;
+    margin: auto;
 }
 main {
-    margin: auto;
-    background-color: rgb(0, 0, 0);
-    border-radius: 15px;
     width: 500px;
-    height: 600px;
-}
-h1 {
-    position: absolute;
-    left: 50%;
-    top: 15%;
-    transform: translate(-50%);
-    color: red;
-    font-size: xx-large;
-    
+    height: 550px;
+    min-width: 496px;
+    margin: auto;
+    border-radius: 5px;
 }
 
-.lista{
+#nome {
     text-align: center;
-    padding: 0px;
+    position: relative;
+    top: 20%;
+    color:red;
+    padding: 0%;
+}
+#linguas {
+    columns: 2;
     color: red;
     position: relative;
     top: 40%;
-    margin: auto;
-    list-style-type: none;
-    columns: 2;
 }
 
-.links {
-    text-align: center;
+.itens {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 40%;
+}
+
+#cont {
     margin: auto;
     position: relative;
     top: 60%;
+    text-align: center;
 }
 
 .links a {
-    text-decoration: none;
+    padding-left: 5x;
     color: red;
-    margin: auto;
+    text-decoration: none;
     transition: .3s;
 }
 
-a:hover {
+a:hover  {
     text-decoration: line-through;
-    border-radius: 5px;
-    padding:5px;
 }
+
