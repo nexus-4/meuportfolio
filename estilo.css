@@ -3,6 +3,12 @@
     font-family: "minhafont";
     src: url(minhafonte.ttf);
 }
+
+@media (max-width: 768px) {
+    .lista {
+        column-count: 1;
+}
+
 body {
     padding: 10px;
     font-family: minhafont, Arial, Helvetica, sans-serif;
