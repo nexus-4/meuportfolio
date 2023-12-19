@@ -1,0 +1,5 @@
+- Primerio Website feito por mim;
+- Servirá como um portfolio;
+- Linguagens que eu conheço;
+- Inicialmente somente HTML e CSS;
+- Mostra um pouco da minha personalidade.
