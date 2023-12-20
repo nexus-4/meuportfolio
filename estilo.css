@@ -13,7 +13,8 @@ body {
 main {
     width: 500px;
     height: 550px;
-    min-width: 496px;
+    min-width: 430px;
+    min-height: 493px;
     margin: auto;
     border-radius: 5px;
 }
