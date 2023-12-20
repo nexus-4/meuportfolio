@@ -3,7 +3,6 @@
     font-family: "minhafont";
     src: url(minhafonte.ttf);
 }
-
 body {
     background-color: black;
     padding: 10px;
@@ -11,12 +10,13 @@ body {
     margin: auto;
 }
 main {
-    width: 100%;
-    max-width: 500px; /* ou outro valor máximo desejado */
+    width: 500px;
+    height: 550px;
+    min-width: 430px;
+    min-height: 493px;
     margin: auto;
     border-radius: 5px;
 }
-
 
 #nome {
     text-align: center;
