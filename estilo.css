@@ -12,7 +12,7 @@ body {
 }
 main {
     width: 100%;
-    max-width: 500px; 
+    max-width: 500px; /* ou outro valor máximo desejado */
     margin: auto;
     border-radius: 5px;
 }
