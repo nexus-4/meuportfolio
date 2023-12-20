@@ -3,9 +3,6 @@
     font-family: "minhafont";
     src: url(minhafonte.ttf);
 }
-@media only screen and (max-width: 600px) {
-    /* Estilos para telas menores que 600 pixels de largura */
-}
 
 body {
     background-color: black;
@@ -14,13 +11,12 @@ body {
     margin: auto;
 }
 main {
-    width: 500px;
-    height: 550px;
-    min-width: 430px;
-    min-height: 493px;
+    width: 100%;
+    max-width: 500px; 
     margin: auto;
     border-radius: 5px;
 }
+
 
 #nome {
     text-align: center;
