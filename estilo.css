@@ -4,13 +4,16 @@
     src: url(minhafonte.ttf);
 }
 body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     padding: 0px;
     font-family: minhafont, Arial, Helvetica, sans-serif;
     margin: auto;
 }
 main { 
-    width: 430px;
+    width: 423px;
     height: 550px;
     min-width: 250px;
     min-height: 500px;
