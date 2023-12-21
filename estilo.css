@@ -25,6 +25,9 @@ main {
     color:red;
     padding: 0%;
 }
+#nome > p {
+    color: white;
+}
 #linguas {
     columns: 2;
     color: red;
